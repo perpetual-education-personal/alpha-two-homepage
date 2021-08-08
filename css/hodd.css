@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+#hodd {
+  border: 3px solid green;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(40, 0, 40, 1);
+  max-width: 320px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+#hodd:hover {
+  background-color: rgba(70, 70, 70, 1);
+}
+
+#hodd h2 {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 2.5em;
+  background: linear-gradient(to right, rgba(75, 255, 100, 1), rgba(0, 0, 255, 1),rgba(75, 255, 100, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 0.9;
+}
+
+#hodd p {
+  background: linear-gradient(to right, rgba(75, 255, 100, 1), rgba(0, 0, 255, 1),rgba(75, 255, 100, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#hodd p:before {
+  content: "I mean you don't have to click it, but"
+}
+
+#hodd a {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 1.9em;
+  text-decoration: underline;
+  background: linear-gradient(to right, rgba(75, 255, 100, 1), rgba(0, 0, 255, 1),rgba(75, 255, 100, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid green;
+}
+
+#hodd a::before {
+  content:"Here is one:";
+}
+
+#hodd a:hover {
+  background: linear-gradient(to right, rgba(0, 0, 255, 1) 70%, rgba(75, 255, 100, 1) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
