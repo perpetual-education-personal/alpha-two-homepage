@@ -1,0 +1,35 @@
+
+#savannah {
+	border: 1px solid #025fd2;
+	padding: 20px;
+	font-family: 'Mulish', sans-serif;
+	background-color: #F8F8FF;
+}
+
+#savannah h2 {
+	color: #025fd2;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#savannah p {
+	color: #025fd2;
+	line-height:1.4;
+	font-size: 17px;
+	margin-top: 8px;
+}
+
+#savannah a {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #025fd2;
+	transition: 3s;
+	margin-top: 8px;
+}
+
+#savannah a:hover{
+	background-color: #98FB98;
+	transition: 0s;
+}
