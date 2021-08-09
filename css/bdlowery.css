@@ -1,0 +1,47 @@
+#bdlowery a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#bdlowery a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#bdlowery h2 + p {
+  margin-top: 20px;
+}
+
+#bdlowery p + a {
+  margin-top: 20px;
+}
+
+#bdlowery {
+  display: block;
+  position: relative;
+  background-color: #16161a;
+  width: 320px;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+#bdlowery .name {
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#bdlowery .teaser {
+  color: #ffffff;
+  font-size: 20px;
+}

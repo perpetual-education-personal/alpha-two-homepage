@@ -4,13 +4,12 @@
 @import "css/sheriffderek.css";
 @import "css/hodd.css";
 @import "css/savannah.css";
-
+@import "css/bdlowery.css";
 
 /* move this to "page.css" */
-body{
+body {
   padding: 40px;
 }
-
 
 .students {
   margin-top: 80px;
@@ -29,5 +28,3 @@ body{
   margin-bottom: 50px; /* ? */
   margin-right: 20px;
 }
-
-
