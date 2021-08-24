@@ -5,8 +5,14 @@
 @import "css/hodd.css";
 @import "css/savannah.css";
 @import "css/bdlowery.css";
+@import "css/scott06.css";
 
 /* move this to "page.css" */
+
+body * {
+  border: 2px solid blue;
+}
+
 body {
   padding: 40px;
 }
